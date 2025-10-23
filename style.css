@@ -1,0 +1,12 @@
+h1,h2 {
+    text-align:center;
+    margin: 0 auto;
+}
+
+body {
+background-color: rgb(0, 203, 230);
+}
+
+#sobre-mi, #proyectos, #destacados{
+    text-align:center;
+}
