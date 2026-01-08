@@ -32,15 +32,17 @@
         <div class="section-container" id="proyectos">
             <h2>Proyectos de Videojuegos</h2>
             <article class="proyecto">
-                <h3>[Título del Juego en Progreso]</h3>
-                <img src="ruta/miniatura.jpg" alt="Imagen del juego" width="300">
+                <h3>Mouse Maze</h3>
+                <img src="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/images/miniatura.jpg" alt="Imagen del juego" width="300">
                 <p><strong>Rol en el proyecto:</strong> Programador de Mecánicas</p>
                 <p><strong>Descripción:</strong> Este será un juego de dos jugadores, uno controlará a un ratón en primera persona con el objetivo de escapar de la mazmorra, mientras que el jugador 2 controlará a los slimes mediante una vista aérea y le dará caza al primer jugador.</p>
-                <h4>Retos y Soluciones</h4>
-                <p>[Describe aquí un reto técnico o de diseño que enfrentamos y cómo lo resolvimos.]</p>
-                <h4>Multimedia</h4>
-                <p><a href="[enlace_video]" target="_blank">Ver trailer o gameplay</a></p>
-                <p><a href="[enlace_juego]" target="_blank">Probar el juego</a></p>
+                <h4>Durante la creación del juego nos encontramos con diversos retos:</h4>
+                <p>1. Al ser para dos jugadores en pantallas separadas encontramos limitaciones con respecto a la iluminación, debido a que cualquier punto de luz se mostraba en las dos pantallas por la versión de Unity que estabamos utilizando, así que como solución prescindimos de algunos elementos que pudieran delatar la posición del ratón.</p>
+                <p>2. También encontramos dificultades para que un jugador usará el teclado y el otro jugador el mando debido a que se solaparían los controles, sin embargo otro de los compañeros solucionó el problema utilizando InputManager.</p>
+                <p>3. Además por mi parte se intentó implementar un modo de generación aleatoria de mapas y personajes, pero debido a la falta de tiempo no llego a introducirse al juego por falta de assets.</p>
+
+                <p><a href="[enlace_video]" target="_blank">De momento no tenemos trailer del juego</a></p>
+                <p><a href="[enlace_juego]" target="_blank">De momento no tenemos enlace al juego</a></p>
             </article>
         </div>
 
@@ -50,10 +52,13 @@
             <p>Aquí se muestran ejemplos destacados de mi trabajo como programador:</p>
             <p>
                 En los siguientes enlaces podemos ver archivos de la programación de una ballesta como arma del jugador 1 del juego anteriormente mencionado:<br><br>
-  		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/ArrowController.cs" target="_blank">ArrowController.cs</a> | 
- 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/ArrowProjectileController.cs" target="_blank">ArrowProjectileController.cs</a> | 
-		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/PlayerController.cs" target="_blank">PlayerController.cs</a> | 
-		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/SlimeMovement.cs" target="_blank">SlimeMovement.cs</a>
+ 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/ArrowProjectileController.cs" target="_blank">ArrowProjectileController.cs (Colisiones de las flechas y pegarse con superficies)</a> |
+          <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/CollectableController.cs" target="_blank">CollectableController.cs (Recolecciones de flechas y coleccionables)</a> | 
+		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/PlayerController.cs" target="_blank">PlayerController.cs (Mecánicas de la flecha con respecto al jugador)</a> | 
+ 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/SlimeStatus.cs" target="_blank">SlimeStatus.cs (Estado de Stun de los slimes)</a> | 
+          <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/SlimeVision.cs" target="_blank">SlimeVision.cs (Radio de visión y detección de los slimes)</a> |
+ 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MazeSpawner.cs" target="_blank">MazeSpawner.cs (Generador de los jugadores de forma aleatoria)</a> |
+ 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MazeGenerator.cs" target="_blank">MazeGenerator.cs (Generador del mapa de forma aleatoria)</a> 
             </p>
         </div>
 
