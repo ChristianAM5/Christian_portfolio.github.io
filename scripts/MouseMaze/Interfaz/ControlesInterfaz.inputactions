@@ -1,0 +1,74 @@
+{
+    "name": "ControlesInterfaz",
+    "maps": [
+        {
+            "name": "Interfaz",
+            "id": "05c2b4a4-dfa8-4305-b463-bb23782112ed",
+            "actions": [
+                {
+                    "name": "Empezar",
+                    "type": "Button",
+                    "id": "6e6adb53-541c-4d17-8db1-4f6afbec1fd9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SaltarCinematica",
+                    "type": "Button",
+                    "id": "557bb88a-cb81-4bd3-982f-48889a529167",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Empezar_Mouse",
+                    "type": "Button",
+                    "id": "af05f8f5-f473-46f4-bfe9-5212dd178352",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f7d4af14-aed9-4662-8df2-fc3aaee3be61",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SaltarCinematica",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7cf01044-1cc5-4f3c-a6a1-be998fa1af9a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SaltarCinematica",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b4275d7-2ea9-48e4-bc3d-ddc54d919b34",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Empezar_Mouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

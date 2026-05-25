@@ -34,30 +34,49 @@
             <article class="proyecto">
                 <h3>Mouse Maze</h3>
                 <img src="https://raw.githubusercontent.com/ChristianAM5/Christian_portfolio.github.io/main/images/miniatura.jpg" alt="Imagen del juego" width="300">
-                <p><strong>Rol en el proyecto:</strong> Programador de Mecánicas</p>
-                <p><strong>Descripción:</strong> Este será un juego de dos jugadores, uno controlará a un ratón en primera persona con el objetivo de escapar de la mazmorra, mientras que el jugador 2 controlará a los slimes mediante una vista aérea y le dará caza al primer jugador.</p>
+                <p><strong>Rol en el proyecto:</strong> Programador</p>
+                <p><strong>Descripción:</strong> Este será un juego de dos jugadores, uno controlará a un ratón en primera persona con el objetivo de escapar de la mazmorra, mientras que el jugador 2 controlará a los slimes mediante una vista aérea y le dará caza al primer jugador, además ahora cuenta con modo multijugador hasta 4 ratones.</p>
                 <h4>Durante la creación del juego nos encontramos con diversos retos:</h4>
                 <p>1. Al ser para dos jugadores en pantallas separadas encontramos limitaciones con respecto a la iluminación, debido a que cualquier punto de luz se mostraba en las dos pantallas por la versión de Unity que estabamos utilizando, así que como solución prescindimos de algunos elementos que pudieran delatar la posición del ratón.</p>
                 <p>2. También encontramos dificultades para que un jugador usará el teclado y el otro jugador el mando debido a que se solaparían los controles, sin embargo otro de los compañeros solucionó el problema utilizando InputManager.</p>
                 <p>3. Además por mi parte se intentó implementar un modo de generación aleatoria de mapas y personajes, pero debido a la falta de tiempo no llego a introducirse al juego por falta de assets.</p>
+                <p>4. Durante la actualización del juego al online encontramos diversos problemas dado nuestra escasa experiencia, pero al final tras investigar hemos logrado hacer una build jugable.</p>
 				
-                <p><a href="https://christianam5.itch.io/mouse-maze" target="_blank">Enlace a entrada de Itchi.io</a></p>
+                <p><a href="https://ok-darkyz.itch.io/mouse-maze" target="_blank">Enlace a entrada de Itchi.io</a></p>
+            </article>
+
+            <article class="proyecto">
+                <h3>Mine Clicker</h3>
+                <img src="https://raw.githubusercontent.com/ChristianAM5/Christian_portfolio.github.io/main/images/Mine_Clicker.png" alt="Imagen del juego" width="300">
+                <p><strong>Rol en el proyecto:</strong> Programador y desarrollador principal</p>
+                <p><strong>Descripción:</strong> Un clicker es un tipo de juego donde la acción principal es hacer clic. Al principio haces todo manualmente, pero poco a poco consigues mejoras que automatizan el proceso y multiplican tus ganancias. La gracia está en ver cómo los números crecen cada vez más rápido conforme progresas.
+
+Todo empieza de forma muy simple: haces clic para picar mineral. Con ese mineral vas al NPC de la zona central y lo vendes por dinero. Con ese dinero puedes comprar tres tipos de mejoras: conseguir más mineral por cada clic, aumentar cuánto cabe en tu inventario, o vender cada mineral a mejor precio. Cuanto más mejoras, más rápido acumulas, y más rápido acumulas más dinero entra.
+
+Pero el juego no se queda ahí. Cuando hayas acumulado suficiente mineral de tu zona actual, puedes desbloquear una nueva zona con un mineral más valioso. Cada zona nueva tiene sus propias mejoras independientes, así que el ciclo de mejorar y crecer se repite pero a mayor escala.
+
+Para no tener que estar picando constantemente, el juego cuenta con autogeneradores: criaturas que trabajan por ti y van llenando un cofre automáticamente mientras haces otras cosas. También puedes conseguir buffs temporales derrotando enemigos especiales que aparecen en el mapa, los cuales duplican durante unos minutos tus ganancias, tu capacidad o tu producción por clic, o completar los acertijos que se encuentran en cada zona para obtener mejoras permanentes más especificas.</p>
+                <p><a href="https://christianam5.itch.io/mine-clicker" target="_blank">Enlace a entrada de Itchi.io</a></p>
+            </article>
+
+            <article class="proyecto">
+                <h3>rounDshooter</h3>
+                <img src="https://raw.githubusercontent.com/ChristianAM5/Christian_portfolio.github.io/main/images/rounDshooter.png" alt="Imagen del juego" width="300">
+                <p><strong>Rol en el proyecto:</strong> Programador y desarrollador principal</p>
+                <p><strong>Descripción:</strong> consiste simplemente en matar enemigos en un ciclo de rondas infinitas, cada 5 eliminados se te otorgara 1 punto de habilidad que podrás gastar en la pantalla entre rondas para mejoras las características de las armas, como tal el juego cuenta con 30 rondas pero al final de cada una los enemigos se vuelven mas rapidos, fuertes y duraderos lo que hace cada vez mas complejo el aguantar vivo. Contamos además con cofres que pueden ser desbloqueados con su llave correspondiente esparcidas cada una por el mapa además de ser reseteados entre rondas, dentro de los mismos podemos encontrar kits de curación o un powerup que nos proporcionara un punto de habilidad.</p>
+				
+                <p><a href="https://christianam5.itch.io/roundshooter" target="_blank">Enlace a entrada de Itchi.io</a></p>
             </article>
         </div>
 
         <!-- Sección 3: Personajes / Arte / Código Destacado -->
         <div class="section-container" id="destacados">
-            <h2>Personajes / Arte / Código Destacado</h2>
+            <h2>Código Destacados</h2>
             <p>Aquí se muestran ejemplos destacados de mi trabajo como programador:</p>
             <p>
-                En los siguientes enlaces podemos ver archivos en los que trabajé para el juego de Mouse Maze, entre ellos podemos ver mecánicas de disparo de flechas de la ballesta del jugador 1, mecánicas de rango de visión y estado de stun para el jugador 2 y recolección de recursos:<br><br>
- 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/ArrowProjectileController.cs" target="_blank">ArrowProjectileController.cs (Colisiones de las flechas y pegarse con superficies)</a> <br>
-          <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/CollectableController.cs" target="_blank">CollectableController.cs (Recolecciones de flechas y coleccionables)</a> <br>
-		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/PlayerController.cs" target="_blank">PlayerController.cs (Mecánicas de la flecha con respecto al jugador)</a> <br>
- 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/SlimeStatus.cs" target="_blank">SlimeStatus.cs (Estado de Stun de los slimes)</a> <br>
-          <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/SlimeVision.cs" target="_blank">SlimeVision.cs (Radio de visión y detección de los slimes)</a> <br>
- 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MazeSpawner.cs" target="_blank">MazeSpawner.cs (Generador de los jugadores de forma aleatoria)</a> <br>
- 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MazeGenerator.cs" target="_blank">MazeGenerator.cs (Generador del mapa de forma aleatoria)</a> 
+ 		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MouseMaze" target="_blank">Mouse Maze --- principalmente mecanicas y actualizacion del juego al online.</a> <br>
+          <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/MineClicker" target="_blank">Mine Clicker --- configuracion de jugabilidad completa de clicker e interfaces de mejoras.</a> <br>
+		  <a href="https://github.com/ChristianAM5/Christian_portfolio.github.io/blob/main/scripts/rounDshooter" target="_blank">rounDshooter --- configuracion de jugabilidad por rondas, IA de enemigos y nuevas armas.</a> <br>
             </p>
         </div>
 
